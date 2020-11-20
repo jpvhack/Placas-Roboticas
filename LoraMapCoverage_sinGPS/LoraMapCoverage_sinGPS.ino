@@ -4,9 +4,9 @@ LoRaModem modem;
 
 #include "arduino_secrets.h" 
 // Please enter your sensitive data in the Secret tab or arduino_secrets.h
-String devAddr="2601196C";
-String nwkSKey="B33A9992CA8B07494C8D94638B0A3ABA";
-String appSKey="15DDC1BEDA05F611A9E64F03560CF9D8";
+String devAddr="";
+String nwkSKey="";
+String appSKey="";
 
 //Green communication  confirmed, Red communication failed. Blue device as disconnected.
 #define LBLUE 3
