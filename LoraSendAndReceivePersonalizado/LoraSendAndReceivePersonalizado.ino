@@ -13,9 +13,9 @@ LoRaModem modem;
 
 #include "arduino_secrets.h"
 // Please enter your sensitive data in the Secret tab or arduino_secrets.h
-String appEui = "70B3D57ED003833B";
-String appKey = "A89CB6D80E46F8AAD18B1C07A2500596";
-String devAddr = "006DBE97A44AEEF2"; //ABP requiere 3 argumentos
+String appEui = "";
+String appKey = "";
+String devAddr = ""; //ABP requiere 3 argumentos
 
 void setup() {
   // put your setup code here, to run once:
